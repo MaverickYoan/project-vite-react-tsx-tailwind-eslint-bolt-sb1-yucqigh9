@@ -1,121 +1,121 @@
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Sheet4Page = () => {
   return (
     <div>
-      <h1>Statistics</h1>
+      <h1>Statistiques</h1>
       
       <section className="page-section">
-        <h2>HTML Performance Optimization</h2>
+        <h2>Optimisation des Performances HTML</h2>
         <p className="mb-6">
-          Optimizing your HTML can significantly improve page load times and overall performance.
-          Here are key statistics and optimization techniques:
+          L'optimisation de votre HTML peut améliorer considérablement les temps de chargement des pages et les performances globales.
+          Voici quelques statistiques clés et techniques d'optimisation :
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white p-5 rounded-lg border text-center">
             <div className="text-4xl font-bold text-blue-600 mb-2">53%</div>
-            <p className="text-gray-700">of users abandon sites that take longer than 3 seconds to load</p>
+            <p className="text-gray-700">des utilisateurs partent du site si il y a plus de 3 secondes de chargement.</p>
           </div>
           
           <div className="bg-white p-5 rounded-lg border text-center">
             <div className="text-4xl font-bold text-blue-600 mb-2">1.5s</div>
-            <p className="text-gray-700">recommended page load time for optimal user experience</p>
+            <p className="text-gray-700">temps de chargement recommandé pour une expérience utilisateur optimale</p>
           </div>
           
           <div className="bg-white p-5 rounded-lg border text-center">
             <div className="text-4xl font-bold text-blue-600 mb-2">16%</div>
-            <p className="text-gray-700">improvement in conversion rates with each second of improved load time</p>
+            <p className="text-gray-700">amélioration des taux de conversion avec chaque seconde de temps de chargement amélioré</p>
           </div>
         </div>
         
-        <h3 className="text-xl font-semibold mb-3">Optimization Techniques</h3>
+        <h3 className="text-xl font-semibold mb-3">Techniques d'Optimisation</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h4 className="text-lg font-medium mb-2">Document Structure</h4>
+            <h4 className="text-lg font-medium mb-2">Structure du Document</h4>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Minimize HTML size by removing unnecessary comments and whitespace</span>
+                <span>Minimiser la taille du HTML en supprimant les commentaires et les espaces inutiles</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Place CSS in the head and JavaScript at the end of body</span>
+                <span>Placer le CSS dans le head et le JavaScript à la fin du body</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use async or defer attributes for non-critical scripts</span>
+                <span>Utiliser les attributs async ou defer pour les scripts non critiques</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Avoid inline styles and scripts when possible</span>
+                <span>Éviter les styles et scripts en ligne lorsque cela est possible</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h4 className="text-lg font-medium mb-2">Media Optimization</h4>
+            <h4 className="text-lg font-medium mb-2">Optimisation des Médias</h4>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use responsive images with srcset and sizes attributes</span>
+                <span>Utiliser des images responsives avec les attributs srcset et sizes</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Specify image dimensions to prevent layout shifts</span>
+                <span>Spécifier les dimensions des images pour éviter les décalages de mise en page</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use modern image formats (WebP, AVIF) with fallbacks</span>
+                <span>Utiliser des formats d'image modernes (WebP, AVIF) avec des fallbacks</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Implement lazy loading for below-the-fold images</span>
+                <span>Implémenter le lazy loading pour les images en dessous de la ligne de flottaison</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h4 className="text-lg font-medium mb-2">Resource Loading</h4>
+            <h4 className="text-lg font-medium mb-2">Chargement des ressources</h4>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use preload for critical resources</span>
+                <span>Utiliser preload pour les ressources critiques</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Implement resource hints (preconnect, prefetch, dns-prefetch)</span>
+                <span>Implémenter des hints de ressources (preconnect, prefetch, dns-prefetch)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Minimize HTTP requests by combining files when appropriate</span>
+                <span>Minimiser les requêtes HTTP en combinant les fichiers lorsque cela est approprié</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use HTTP/2 or HTTP/3 for multiplexed connections</span>
+                <span>Utiliser HTTP/2 ou HTTP/3 pour les connexions multiplexées</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h4 className="text-lg font-medium mb-2">Advanced Techniques</h4>
+            <h4 className="text-lg font-medium mb-2">Techniques Avancées</h4>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Implement critical CSS for above-the-fold content</span>
+                <span>Implémenter le CSS critique pour le contenu au-dessus de la ligne de flottaison</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use service workers for offline capabilities</span>
+                <span>Utiliser des workers de service pour les capacités hors ligne</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Implement server-side rendering or static site generation</span>
+                <span>Implémenter le rendu côté serveur ou la génération de sites statiques</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use content delivery networks (CDNs) for static assets</span>
+                <span>Utiliser des réseaux de diffusion de contenu (CDN) pour les ressources statiques</span>
               </li>
             </ul>
           </div>
@@ -123,81 +123,81 @@ const Sheet4Page = () => {
       </section>
       
       <section className="page-section">
-        <h2>HTML Usage Statistics</h2>
+        <h2>Utilisation des statistiques HTML</h2>
         <p>
-          Understanding how HTML elements are used across the web can help inform your development decisions.
-          Here are some statistics on HTML element usage:
+          Comprendre comment les éléments HTML sont utilisés sur le web peut aider à éclairer vos décisions de développement.
+          Voici quelques statistiques sur l'utilisation des éléments HTML :
         </p>
         
         <div className="mt-6 overflow-x-auto">
           <table className="min-w-full">
             <thead>
               <tr>
-                <th>Element</th>
-                <th>Usage Percentage</th>
-                <th>Common Use Cases</th>
+                <th>Élément</th>
+                <th>Pourcentage d'utilisation</th>
+                <th>Cas d'utilisation courants</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td><code>&lt;div&gt;</code></td>
                 <td>95%</td>
-                <td>General container, layout structure</td>
+                <td>Conteneur général, structure de mise en page</td>
               </tr>
               <tr>
                 <td><code>&lt;a&gt;</code></td>
                 <td>93%</td>
-                <td>Links, navigation, actions</td>
+                <td>Liens, navigation, actions</td>
               </tr>
               <tr>
                 <td><code>&lt;img&gt;</code></td>
                 <td>91%</td>
-                <td>Images, logos, icons</td>
+                <td>Images, logos, icônes</td>
               </tr>
               <tr>
                 <td><code>&lt;p&gt;</code></td>
                 <td>89%</td>
-                <td>Paragraphs, text content</td>
+                <td>Paragraphes, contenu textuel</td>
               </tr>
               <tr>
                 <td><code>&lt;span&gt;</code></td>
                 <td>85%</td>
-                <td>Inline styling, text segments</td>
+                <td>Style en ligne, segments de texte</td>
               </tr>
               <tr>
                 <td><code>&lt;ul&gt;</code>/<code>&lt;li&gt;</code></td>
                 <td>78%</td>
-                <td>Lists, navigation menus</td>
+                <td>Listes, menus de navigation</td>
               </tr>
               <tr>
                 <td><code>&lt;header&gt;</code></td>
                 <td>62%</td>
-                <td>Page or section headers</td>
+                <td>En-têtes de page ou de section</td>
               </tr>
               <tr>
                 <td><code>&lt;footer&gt;</code></td>
                 <td>58%</td>
-                <td>Page or section footers</td>
+                <td>Pieds de page ou de section</td>
               </tr>
               <tr>
                 <td><code>&lt;nav&gt;</code></td>
                 <td>55%</td>
-                <td>Navigation sections</td>
+                <td>Sections de navigation</td>
               </tr>
               <tr>
                 <td><code>&lt;section&gt;</code></td>
                 <td>52%</td>
-                <td>Content sections</td>
+                <td>Sections de contenu</td>
               </tr>
               <tr>
                 <td><code>&lt;article&gt;</code></td>
                 <td>48%</td>
-                <td>Self-contained content</td>
+                <td>Contenu autonome</td>
               </tr>
               <tr>
                 <td><code>&lt;aside&gt;</code></td>
                 <td>35%</td>
-                <td>Sidebars, related content</td>
+                <td>Barres latérales, contenu connexe</td>
               </tr>
             </tbody>
           </table>
@@ -205,15 +205,15 @@ const Sheet4Page = () => {
         
         <div className="mt-6">
           <p className="text-sm text-gray-600 italic">
-            * Statistics are approximate and based on analysis of top websites. Actual usage may vary.
+            * Les statistiques sont approximatives et basées sur l'analyse des principaux sites web. L'utilisation réelle peut varier.
           </p>
         </div>
       </section>
       
       <section className="page-section">
-        <h2>Browser Compatibility</h2>
+        <h2>Compatibilité des navigateurs</h2>
         <p>
-          Different browsers may support HTML features differently. Here's a summary of HTML5 feature support across major browsers:
+          Différents navigateurs peuvent prendre en charge les fonctionnalités HTML de manière différente. Voici un résumé de la prise en charge des fonctionnalités HTML5 dans les principaux navigateurs :
         </p>
         
         <div className="mt-6 bg-white p-6 border rounded-lg">
@@ -232,7 +232,7 @@ const Sheet4Page = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Semantic Elements</td>
+                  <td>Elements Sémantiques</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
@@ -260,14 +260,14 @@ const Sheet4Page = () => {
                   <td className="text-green-600">Full</td>
                 </tr>
                 <tr>
-                  <td>Web Storage</td>
+                  <td>Stockage sur le Web</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                 </tr>
                 <tr>
-                  <td>Web Workers</td>
+                  <td>Travailleurs du Web</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
@@ -295,7 +295,7 @@ const Sheet4Page = () => {
                   <td className="text-green-600">Full</td>
                 </tr>
                 <tr>
-                  <td>Web Components</td>
+                  <td>Composants Web</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-green-600">Full</td>
                   <td className="text-yellow-600">Partial</td>
@@ -306,14 +306,14 @@ const Sheet4Page = () => {
           </div>
           
           <p className="mt-4 text-sm text-gray-600 italic">
-            * Safari requires HTTPS for some features like Geolocation
+            * Safari nécessite HTTPS pour certaines fonctionnalités comme la géolocalisation
           </p>
-          
-          <h4 className="text-lg font-medium mt-6 mb-2">Testing Tools</h4>
+
+          <h4 className="text-lg font-medium mt-6 mb-2">Outils de test</h4>
           <ul className="list-disc pl-5 space-y-1">
-            <li><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Can I Use</a> - Browser compatibility tables</li>
-            <li><a href="https://browserstack.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BrowserStack</a> - Cross-browser testing platform</li>
-            <li><a href="https://www.lambdatest.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LambdaTest</a> - Cross-browser testing cloud</li>
+            <li><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Can I Use</a> - Tables de compatibilité des navigateurs</li>
+            <li><a href="https://browserstack.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BrowserStack</a> - Plateforme de test cross-browser</li>
+            <li><a href="https://www.lambdatest.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LambdaTest</a> - Cloud de test cross-browser</li>
           </ul>
         </div>
       </section>
@@ -321,7 +321,11 @@ const Sheet4Page = () => {
       <div className="mt-8">
         <Link to="/sheet3" className="flex items-center text-blue-600 hover:text-blue-800 font-medium">
           <ArrowLeft className="mr-2" size={18} />
-          Back to Analysis
+          Retour à l'analyse
+        </Link> &nbsp;|&nbsp;
+        <Link to="/sheet5" className="flex items-center text-blue-600 hover:text-blue-800 font-medium ml-4">
+          Première page de tests
+          <ArrowRight className="ml-2" size={18} />
         </Link>
       </div>
     </div>

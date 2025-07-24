@@ -4,64 +4,64 @@ import { Link } from 'react-router-dom';
 const Sheet3Page = () => {
   return (
     <div>
-      <h1>Analysis</h1>
+      <h1>Analyse</h1>
       
       <section className="page-section">
-        <h2>HTML Best Practices</h2>
+        <h2>Meilleures pratiques HTML</h2>
         <p className="mb-6">
-          Following best practices when writing HTML ensures your web pages are accessible, 
-          SEO-friendly, and maintainable. Here are key guidelines to follow:
+          Suivre les meilleures pratiques lors de l'écriture de HTML garantit que vos pages Web sont accessibles,
+          optimisées pour le référencement et faciles à maintenir. Voici quelques directives clés à suivre :
         </p>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-blue-700">Document Structure</h3>
+            <h3 className="text-xl font-semibold mb-3 text-blue-700">Structure du Document</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Always declare DOCTYPE and use HTML5 (<code>&lt;!DOCTYPE html&gt;</code>)</span>
+                <span>Déclarez toujours le DOCTYPE et utilisez HTML5 (<code>&lt;!DOCTYPE html&gt;</code>)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Set the language attribute (<code>&lt;html lang="en"&gt;</code>)</span>
+                <span>Définissez l'attribut de langue (<code>&lt;html lang="en"&gt;</code>)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Include proper meta tags (charset, viewport)</span>
+                <span>Incluez des balises meta appropriées (charset, viewport)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use semantic elements for page structure</span>
+                <span>Utilisez des éléments sémantiques pour la structure de la page</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 font-bold mr-2">✗</span>
-                <span>Don't use deprecated elements like <code>&lt;center&gt;</code> or <code>&lt;font&gt;</code></span>
+                <span>Ne pas utiliser d'éléments obsolètes comme <code>&lt;center&gt;</code> ou <code>&lt;font&gt;</code></span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-blue-700">Accessibility</h3>
+            <h3 className="text-xl font-semibold mb-3 text-blue-700">Accessibilité</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use alternative text for images (<code>alt</code> attributes)</span>
+                <span>Utilisez un texte alternatif pour les images (<code>alt</code> attributes)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Ensure proper heading hierarchy (h1 → h2 → h3)</span>
+                <span>Assurez-vous d'une hiérarchie de titres appropriée (h1 → h2 → h3)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Associate labels with form controls</span>
+                <span>Associez les étiquettes aux contrôles de formulaire</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use ARIA attributes when necessary</span>
+                <span>Utilisez des attributs ARIA lorsque cela est nécessaire</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 font-bold mr-2">✗</span>
-                <span>Don't rely solely on color to convey information</span>
+                <span>Ne vous fiez pas uniquement à la couleur pour transmettre des informations</span>
               </li>
             </ul>
           </div>
@@ -71,49 +71,49 @@ const Sheet3Page = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use descriptive, unique page titles</span>
+                <span>Utiliser une description par titre unique</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Include meta description tags</span>
+                <span>Inclure des balises de description meta</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Structure content with semantic headings</span>
+                <span>Structurer le contenu avec des titres sémantiques</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use descriptive link text (not "click here")</span>
+                <span>Utiliser un texte de lien descriptif (pas "cliquez ici")</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 font-bold mr-2">✗</span>
-                <span>Don't hide important content with JavaScript</span>
+                <span>Ne pas cacher de contenu important avec JavaScript</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white p-5 rounded-lg border shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-blue-700">Code Quality</h3>
+            <h3 className="text-xl font-semibold mb-3 text-blue-700">Qualité du Code</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use consistent indentation and formatting</span>
+                <span>Utiliser une indentation et un formatage cohérents</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Close all tags properly</span>
+                <span>Fermer toutes les balises correctement</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Use lowercase for element names and attributes</span>
+                <span>Utiliser des minuscules pour les noms d'éléments et les attributs</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">✓</span>
-                <span>Quote attribute values consistently</span>
+                <span>Citer les valeurs des attributs de manière cohérente</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 font-bold mr-2">✗</span>
-                <span>Don't mix content and presentation (use CSS for styling)</span>
+                <span>Ne pas mélanger le contenu et la présentation (utiliser CSS pour le style)</span>
               </li>
             </ul>
           </div>
@@ -121,71 +121,71 @@ const Sheet3Page = () => {
       </section>
       
       <section className="page-section">
-        <h2>HTML5 Features</h2>
+        <h2>HTML5 Fonctionnalités</h2>
         <p>
-          HTML5 introduced many new features that enhance web development capabilities.
-          Here are some key features and their benefits:
+          HTML5 a introduit de nombreuses nouvelles fonctionnalités qui améliorent les capacités de développement web.
+          Voici quelques fonctionnalités clés et leurs avantages :
         </p>
         
         <div className="mt-6 overflow-x-auto">
           <table className="min-w-full">
             <thead>
               <tr>
-                <th>Feature</th>
+                <th>Fonctionnalité</th>
                 <th>Description</th>
-                <th>Benefits</th>
+                <th>Avantages</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Semantic Elements</td>
-                <td>New elements like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code></td>
-                <td>Improved structure, accessibility, and SEO</td>
+                <td>Éléments Sémantiques</td>
+                <td>Nouveaux éléments comme <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code></td>
+                <td>Meilleure structure, accessibilité et SEO</td>
               </tr>
               <tr>
-                <td>Audio and Video</td>
-                <td>Native <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements</td>
-                <td>No need for third-party plugins like Flash</td>
+                <td>Audio et Vidéo</td>
+                <td>Éléments natifs <code>&lt;audio&gt;</code> et <code>&lt;video&gt;</code></td>
+                <td>Pas besoin de plugins tiers comme Flash</td>
               </tr>
               <tr>
                 <td>Canvas</td>
-                <td>2D drawing API</td>
-                <td>Dynamic, scriptable rendering of graphics</td>
+                <td>API de dessin 2D</td>
+                <td>Rendu dynamique et scriptable des graphiques</td>
               </tr>
               <tr>
                 <td>SVG</td>
                 <td>Scalable Vector Graphics</td>
-                <td>Resolution-independent graphics that scale perfectly</td>
+                <td>Graphiques indépendants de la résolution qui s'adaptent parfaitement</td>
               </tr>
               <tr>
                 <td>Web Storage</td>
-                <td>localStorage and sessionStorage</td>
-                <td>Client-side data storage beyond cookies</td>
+                <td>localStorage et sessionStorage</td>
+                <td>Stockage de données côté client au-delà des cookies</td>
               </tr>
               <tr>
                 <td>Geolocation</td>
                 <td>Geolocation API</td>
-                <td>Access to geographical position information</td>
+                <td>Accès aux informations de position géographique</td>
               </tr>
               <tr>
                 <td>Web Workers</td>
-                <td>Background processing</td>
-                <td>Run scripts in background threads</td>
+                <td>Traitement en arrière-plan</td>
+                <td>Exécution de scripts dans des threads d'arrière-plan</td>
               </tr>
               <tr>
                 <td>Drag and Drop</td>
-                <td>Native drag-and-drop functionality</td>
-                <td>Improved user interactions without JavaScript</td>
+                <td>Fonctionnalité de glisser-déposer native</td>
+                <td>Interactions utilisateur améliorées sans JavaScript</td>
               </tr>
               <tr>
-                <td>New Form Controls</td>
-                <td>New input types (email, date, etc.)</td>
-                <td>Better user experience and built-in validation</td>
+                <td>Nouveaux Contrôles de Formulaire</td>
+                <td>Nouveaux types d'entrée (email, date, etc.)</td>
+                <td>Meilleure expérience utilisateur et validation intégrée</td>
               </tr>
               <tr>
                 <td>WebSockets</td>
-                <td>Persistent connection between client and server</td>
-                <td>Real-time communication with reduced latency</td>
+                <td>Connexion persistante entre le client et le serveur</td>
+                <td>Communication en temps réel avec une latence réduite</td>
               </tr>
             </tbody>
           </table>
@@ -193,39 +193,39 @@ const Sheet3Page = () => {
       </section>
       
       <section className="page-section">
-        <h2>HTML Validation</h2>
+        <h2>Validation du HTML</h2>
         <p>
-          Validating your HTML ensures it follows the proper standards and helps prevent issues 
-          across different browsers. Here are some common validation errors and how to fix them:
+          La validation de votre HTML garantit qu'il respecte les normes appropriées et aide à prévenir les problèmes
+          sur différents navigateurs. Voici quelques erreurs de validation courantes et comment les corriger :
         </p>
         
         <div className="bg-white p-5 rounded-lg border mt-6">
-          <h3 className="text-xl font-semibold mb-3">Common Validation Errors</h3>
+          <h3 className="text-xl font-semibold mb-3">Erreurs de Validation Courantes</h3>
           <ul className="space-y-3">
             <li className="p-3 bg-red-50 rounded">
-              <strong className="text-red-700">Unclosed Elements:</strong> Always make sure to close elements properly or use self-closing syntax for void elements.
+              <strong className="text-red-700">Éléments Non Fermés:</strong> Assurez-vous toujours de fermer les éléments correctement ou d'utiliser la syntaxe d'auto-fermeture pour les éléments vides.
             </li>
             <li className="p-3 bg-red-50 rounded">
-              <strong className="text-red-700">Improper Nesting:</strong> Elements must be properly nested. For example, <code>&lt;p&gt;&lt;div&gt;&lt;/p&gt;&lt;/div&gt;</code> is incorrect.
+              <strong className="text-red-700">Imbrication Incorrecte:</strong> Les éléments doivent être correctement imbriqués. Par exemple, <code>&lt;p&gt;&lt;div&gt;&lt;/p&gt;&lt;/div&gt;</code> est incorrect.
             </li>
             <li className="p-3 bg-red-50 rounded">
-              <strong className="text-red-700">Duplicate IDs:</strong> ID attributes must be unique within the document.
+              <strong className="text-red-700">IDs Dupliqués:</strong> Les attributs ID doivent être uniques dans le document.
             </li>
             <li className="p-3 bg-red-50 rounded">
-              <strong className="text-red-700">Missing Required Attributes:</strong> Some elements require specific attributes (e.g., <code>&lt;img&gt;</code> needs <code>src</code> and <code>alt</code>).
+              <strong className="text-red-700">Attributs Requis Manquants:</strong> Certains éléments nécessitent des attributs spécifiques (par exemple, <code>&lt;img&gt;</code> a besoin de <code>src</code> et <code>alt</code>).
             </li>
             <li className="p-3 bg-red-50 rounded">
-              <strong className="text-red-700">Invalid Character References:</strong> Use proper HTML entity references for special characters.
+              <strong className="text-red-700">Références de Caractères Invalides:</strong> Utilisez des références d'entités HTML appropriées pour les caractères spéciaux.
             </li>
           </ul>
           
           <div className="mt-6">
-            <h4 className="text-lg font-medium mb-2">Validation Tools</h4>
+            <h4 className="text-lg font-medium mb-2">Outils de Validation</h4>
             <ul className="list-disc pl-5 space-y-1">
-              <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">W3C Markup Validation Service</a> - Official validator</li>
-              <li><a href="https://html5.validator.nu/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Nu Html Checker</a> - Modern HTML5 validator</li>
-              <li>IDE extensions and plugins (VS Code, WebStorm, etc.)</li>
-              <li>Build tools like ESLint with HTML plugins</li>
+              <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">W3C Markup Validation Service</a> - Validateur officiel</li>
+              <li><a href="https://html5.validator.nu/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Nu Html Checker</a> - Validateur HTML5 moderne</li>
+              <li>Extensions et plugins IDE (VS Code, WebStorm, etc.)</li>
+              <li>Outils de construction comme ESLint avec des plugins HTML</li>
             </ul>
           </div>
         </div>
@@ -234,10 +234,10 @@ const Sheet3Page = () => {
       <div className="mt-8 flex justify-between">
         <Link to="/sheet2" className="flex items-center text-blue-600 hover:text-blue-800 font-medium">
           <ArrowLeft className="mr-2" size={18} />
-          Back to Key Metrics
-        </Link>
+          Retour aux indicateurs clés
+        </Link>&nbsp;|&nbsp;
         <Link to="/sheet4" className="flex items-center text-blue-600 hover:text-blue-800 font-medium">
-          View Statistics
+          Voir les statistiques
           <ArrowRight className="ml-2" size={18} />
         </Link>
       </div>

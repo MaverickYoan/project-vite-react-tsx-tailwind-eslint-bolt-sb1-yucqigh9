@@ -6,38 +6,38 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Excel Data</h3>
+            <h3 className="text-xl font-semibold mb-4">Données Excel</h3>
             <p className="text-gray-300">
-              A comprehensive website showcasing information from your Excel spreadsheets.
+              Un site web complet présentant des informations provenant de vos feuilles de calcul Excel.
             </p>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-3">Liens rapides</h4>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-                  Home
+                  Accueil
                 </Link>
               </li>
               <li>
                 <Link to="/sheet1" className="text-gray-300 hover:text-white transition-colors">
-                  Data Overview
+                  Vue d'ensemble des données
                 </Link>
               </li>
               <li>
                 <Link to="/sheet2" className="text-gray-300 hover:text-white transition-colors">
-                  Key Metrics
+                  Indicateurs clés
                 </Link>
               </li>
               <li>
                 <Link to="/sheet3" className="text-gray-300 hover:text-white transition-colors">
-                  Analysis
+                  Analyse
                 </Link>
               </li>
               <li>
                 <Link to="/sheet4" className="text-gray-300 hover:text-white transition-colors">
-                  Statistics
+                  Statistiques
                 </Link>
               </li>
             </ul>
@@ -46,16 +46,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-3">Contact</h4>
             <p className="text-gray-300 mb-2">
-              Email: contact@example.com
+              Email: yoanmaverick@gmail.com
             </p>
             <p className="text-gray-300">
-              Phone: (123) 456-7890
+              Téléphone: (123) 456-7890
             </p>
           </div>
         </div>
         
         <div className="mt-8 pt-4 border-t border-gray-700 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Excel Data. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Données Excel. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
