@@ -1,0 +1,116 @@
+body {
+  background-color: #f9fafb; /* bg-gray-50 */
+  color: #111827; /* text-gray-900 */
+}
+
+h1 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+}
+
+h2 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 1.875rem; /* md:text-3xl */
+  }
+}
+
+h3 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.75rem; /* mb-3 */
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.5rem; /* md:text-2xl */
+  }
+}
+
+h4 {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 1.25rem; /* md:text-xl */
+  }
+}
+
+p {
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+table {
+  width: 100%; /* w-full */
+  border-collapse: collapse;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+th {
+  border: 1px solid #e5e7eb; /* border */
+  padding: 0.5rem; /* p-2 */
+  color: #2563eb; /* blue */
+  text-align: left;
+}
+
+td {
+  border: 1px solid #e5e7eb; /* border */
+  padding: 0.5rem; /* p-2 */
+}
+
+.btn {
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem;
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem; /* rounded */
+  font-weight: 500; /* font-medium */
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #22c55e; /* green-500 */
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #15803d; /* green-700 */
+}
+
+.btn-secondary {
+  background-color: #e5e7eb; /* bg-gray-200 */
+  color: #1f2937; /* text-gray-800 */
+}
+.btn-secondary:hover {
+  background-color: #d1d5db; /* bg-gray-300 */
+}
+
+.container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
